@@ -7,6 +7,6 @@ export default class ArrayBufferConverter {
   toString(bufferView) {
     return bufferView.reduce(
       (sum, current) => sum + String.fromCharCode(current), '',
-    );
+    )
   }
 }
